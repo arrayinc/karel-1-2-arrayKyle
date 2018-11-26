@@ -3,3 +3,27 @@
  * ---------------------------
  * Uh oh. We've got some potholes. Ewww.
  */
+
+import "turns";
+
+function FillPotholes(){
+	move();
+	fillPotholes();
+	move();
+	move();
+	move();
+	fillPotholes();
+	move();
+}
+
+function fillPotholes(){
+	turnRight();
+	move();
+	putBeeper();
+	turnAround();
+	move();
+	turnRight();
+}
+
+
+
